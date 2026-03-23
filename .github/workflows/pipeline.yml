@@ -28,7 +28,7 @@ jobs:
       - name: Train PyTorch Model
         env:
           MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
-          MOCK_ACCURACY: 0.90 
+          MOCK_ACCURACY: 0.90
         run: python train.py --epochs 1
 
       - name: Persist Data
