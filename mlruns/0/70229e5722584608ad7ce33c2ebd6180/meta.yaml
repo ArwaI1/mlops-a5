@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/uni sem 2/MLops/abo om da assignment/mlruns/0/70229e5722584608ad7ce33c2ebd6180/artifacts
+end_time: 1774297272985
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 70229e5722584608ad7ce33c2ebd6180
+run_name: Sign_Language_Run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774297270678
+status: 3
+tags: []
+user_id: Arwa
