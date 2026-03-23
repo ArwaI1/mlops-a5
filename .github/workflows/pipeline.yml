@@ -28,7 +28,7 @@ jobs:
       - name: Train PyTorch Model
         env:
           MLFLOW_TRACKING_URI: file:./mlruns
-          MOCK_ACCURACY: "0.90" 
+          MOCK_ACCURACY: "0.80" 
         run: python train.py --epochs 1
 
       # THIS IS THE FIX: Zip the database before uploading!
